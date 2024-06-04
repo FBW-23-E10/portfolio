@@ -1,0 +1,58 @@
+#root {
+  max-width: 100%;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 1.3rem 2rem;
+  background: #222;
+  width: 100%;
+}
+
+header span{
+  color: #eee;
+}
+
+
+.navbar ul{
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.navbar li a{
+  text-decoration: none;
+  color: #ddd;
+  font-size: 1.2rem;
+}
+
+.navbar li a:hover{
+  color: tomato;
+}
+
+main{
+  padding: 2rem;
+  text-align: left;
+}
+
+main h1{
+  margin-bottom: 1rem;
+}
+
+.active{
+  color: tomato !important;
+}
+
+button{
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  background: #333;
+  color: #eee;
+  border: none;
+  margin: 1rem 0;
+}
